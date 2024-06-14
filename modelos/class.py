@@ -14,7 +14,7 @@ class Motocicleta:
     def lista_motos(cls):
         print(f"{'Modelo: '.ljust(15)} | {'Cor: '.ljust(15)} | {'Ano: '.ljust(15)} | {'Status: '.ljust(15)}")
         for moto in Motocicleta.motos:
-            print(f'{moto._modelo.ljust(15)} | {moto._cor.ljust(15)} | {moto._ano.ljust(15)} | {moto._ativo.ljust(15)}')
+            print(f'{moto._modelo.ljust(15)} | {moto._cor.ljust(15)} | {moto._ano.ljust(15)} | {moto.ativo.ljust(15)}')
     
     def alterar_status(self):
         self._ativo = not self._ativo
