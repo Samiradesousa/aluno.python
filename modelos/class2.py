@@ -30,7 +30,7 @@ class Loja:
     def ativo(self):
         return '''(👍 ͡❛ ͜ʖ ͡❛)👍''' if self._ativo else '''( ͡❛ ͜ʖ ͡❛)👎'''
     
-# função para estanciar         
+# função para istância         
 def nome(): 
     nome = input('Digite o nome: ')
     return nome
@@ -38,7 +38,7 @@ def categoria():
     categoria = input('Digite a categoria: ')
     return categoria
 
-# estanciando o objeto 
+# instânciando o objeto 
 loja = Loja(nome(),categoria())
 # imprimindo na tela 
 Loja.lista_lojas()
